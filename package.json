@@ -1,0 +1,19 @@
+{
+  "name": "netlify-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve server",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
